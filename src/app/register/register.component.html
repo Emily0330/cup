@@ -1,4 +1,41 @@
 
-<h1>register works!</h1>
+<h3 style="text-align: center; font-weight: bold;">註冊</h3>
 
-  
+<!-- to use bootstrap-->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<body>
+<form>
+    <div class="form-group">
+      <input type="text" class="form-control" id="account" aria-describedby="emailHelp" placeholder="註冊帳號">
+    </div>
+    <div class="form-group" style="white-space: nowrap;">
+      <input type="password" class="form-control" id="pwd" placeholder="密碼(至少八位並含英數字)" style="display: inline;">
+      <button class="btn btn-default reveal" type="button"><i class="glyphicon glyphicon-eye-open"></i></button>
+    </div>
+    <div class="form-group">
+        <input type="password" class="form-control" id="pwd_check" placeholder="再次輸入密碼">
+    </div>
+    <div class="form-check" style="text-align: center;">
+      <input type="checkbox" class="form-check-input" id="checkbox">
+      <label class="form-check-label" for="exampleCheck1">我已閱讀並同意</label><a routerLink="/termsOfUse" target="_blank">使用者條款</a>
+    </div>
+    <div>
+        <p></p>
+    </div>
+    <div style="text-align: center;">
+      <button type="submit" class="btn btn-primary">註冊</button>   
+    </div>
+    <div style="text-align: center;">
+        <p></p>
+        <a routerLink="/login">已有帳號，我要登入</a>
+    </div>
+  </form>
+</body>
