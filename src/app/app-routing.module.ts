@@ -8,17 +8,18 @@ import { BarcodeComponent } from './barcode/barcode.component';
 import { TokenComponent } from './token/token.component';
 
 
+import { TermsOfUseComponent } from './terms-of-use/terms-of-use.component';
 
 const routes: Routes = [
 
- {path:'',component:WelcomeComponent,children:[]},
+ {path:'',component:LoginComponent,children:[]},
  {path:"welcome",component:WelcomeComponent},
  {path:"login",component:LoginComponent},
  {path:"register",component:RegisterComponent},
  {path:"home",component:HomeComponent},
  {path:"barcode",component:BarcodeComponent},
- {path:"token",component:TokenComponent}
-
+ {path:"token",component:TokenComponent},
+ {path:"termsOfUse",component:TermsOfUseComponent}
 ];
 
 @NgModule({
