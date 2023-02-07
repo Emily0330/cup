@@ -4,6 +4,10 @@ import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { RegisterComponent } from './register/register.component';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { BarcodeComponent } from './barcode/barcode.component';
+import { TokenComponent } from './token/token.component';
+
+
 
 const routes: Routes = [
 
@@ -11,7 +15,10 @@ const routes: Routes = [
  {path:"welcome",component:WelcomeComponent},
  {path:"login",component:LoginComponent},
  {path:"register",component:RegisterComponent},
- {path:"home",component:HomeComponent}
+ {path:"home",component:HomeComponent},
+ {path:"barcode",component:BarcodeComponent},
+ {path:"token",component:TokenComponent}
+
 ];
 
 @NgModule({
