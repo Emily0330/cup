@@ -6,6 +6,7 @@ import { RegisterComponent } from './register/register.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { BarcodeComponent } from './barcode/barcode.component';
 import { TokenComponent } from './token/token.component';
+import { ForgetPasswordComponent } from './forget-password/forget-password.component';
 
 
 import { TermsOfUseComponent } from './terms-of-use/terms-of-use.component';
@@ -19,7 +20,8 @@ const routes: Routes = [
  {path:"home",component:HomeComponent},
  {path:"barcode",component:BarcodeComponent},
  {path:"token",component:TokenComponent},
- {path:"termsOfUse",component:TermsOfUseComponent}
+ {path:"termsOfUse",component:TermsOfUseComponent},
+ {path:"forgetPassword",component:ForgetPasswordComponent}
 ];
 
 @NgModule({
