@@ -10,6 +10,7 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { TermsOfUseComponent } from './terms-of-use/terms-of-use.component';
 import { ForgetPasswordComponent } from './forget-password/forget-password.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +19,8 @@ import { ForgetPasswordComponent } from './forget-password/forget-password.compo
     RegisterComponent,
     WelcomeComponent,
     TermsOfUseComponent,
-    ForgetPasswordComponent
+    ForgetPasswordComponent,
+    TermsOfUseComponent
   ],
   imports: [
     BrowserModule,
