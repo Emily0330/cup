@@ -34,11 +34,21 @@
     
       <div class="spacer"></div>
       <div style="text-align: center;">
-
-      <a routerLink="/welcome">
+<!--
+  <a routerLink="/welcome">
         <p>登出</p>
       </a>
+-->
+      <!--要有login才會出現?-->
+      <ng-template *ngIf="auth.isAuthenticated$ | async; else loggedOut">
+        <button type="button" class="btn btn-outline-success btn-lg" (click)="auth.logout({ logoutParams: { returnTo: document.location.origin } })">
+          Log out
+        </button>
+      </ng-template>
   
+      <ng-template #loggedOut>
+        <button type="button" class="btn btn-outline-success btn-lg" (click)="auth.loginWithRedirect()">Log in</button>
+      </ng-template>
   </div>
 
 
