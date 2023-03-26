@@ -21,7 +21,7 @@ We reward those shops with **CUP-tokens** every time customers buy drinks using 
 
 Also, Consumers can record their purchases on the chain and accumulate points, which can be exchanged for drinks, etc.
 
-**Please follow the link to see more information of our project **
+**Please follow the link to see more information of our project.**
 
 ## About this repo
 **We use:**
