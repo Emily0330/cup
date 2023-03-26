@@ -1,3 +1,5 @@
+# cup README
+
 # cup-Backend
 The backend program of the solution challenge project regarding eco-friendly cups
 ## Steps to start the backend program
@@ -16,7 +18,7 @@ run`npm install dotenv --save`
 **5. install web3**
 run`npm install web3` in the terminal
 
-**6. install body-parser**
+**6. install web3**
 run`npm install body-parser` in the terminal
 
 **7. change the wallet address and private key into yours**
@@ -35,10 +37,3 @@ if the program is successfully implemented.
 After enter the wallet address in our web app and press "發送資料"，we'll get the message below in our backend terminal:
 
 ![](https://i.imgur.com/gfIBbDO.png)
-
-
-
-
-## Introduction
-### index.js (the main file of the backend program)
-**Remember to change the wallet address and private key into your own**
