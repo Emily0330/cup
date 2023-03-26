@@ -13,17 +13,14 @@
 <br>
   <div class="center">
     <div>
-      <a routerLink="/login">
-
-      <button type="button" class="btn btn-outline-success btn-lg" (click)="auth.loginWithRedirect()">登入</button>
-      </a>
+      <button type="button" class="btn btn-outline-success btn-lg" (click)="auth.loginWithRedirect()">登入 / 註冊</button>
     </div>
-    <p></p>
-    <div>
-      <a routerLink="/register">
-        <button type="button" class="btn btn-outline-success btn-lg">註冊</button>
-      </a>
+    <br>
+    <!--<div *ngIf="isAuthenticated$ | async">-->
+    <div align="center">
+      <button type="button" class="btn btn-outline-success btn-lg" routerLink="/home" >至主頁</button>
     </div>
+    
   </div>
 
 

@@ -1,6 +1,3 @@
-
-
-
 <!-- Bootstrap CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <!-- Popper and Bootstrap JS -->
@@ -28,27 +25,17 @@
       </a>
     </div>
   </div>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <!-- Toolbar -->
     <div class="toolbar" role="banner">
     
       <div class="spacer"></div>
       <div style="text-align: center;">
-<!--
-  <a routerLink="/welcome">
-        <p>登出</p>
-      </a>
--->
-      <!--要有login才會出現?-->
-      <ng-template *ngIf="auth.isAuthenticated$ | async; else loggedOut">
-        <button type="button" class="btn btn-outline-success btn-lg" (click)="auth.logout({ logoutParams: { returnTo: document.location.origin } })">
-          Log out
-        </button>
-      </ng-template>
-  
-      <ng-template #loggedOut>
-        <button type="button" class="btn btn-outline-success btn-lg" (click)="auth.loginWithRedirect()">Log in</button>
-      </ng-template>
+        <!--<button type="button" class="btn btn-outline-success btn-lg" (click)="auth.logout({ logoutParams: { returnTo: document.location.origin } })">-->
+      <br>
+      <button type="button" class="btn btn-outline-success btn-lg" (click)="auth.logout({ logoutParams: { returnTo: document.location.origin } })">
+        Log out
+      </button>
+
   </div>
 
 

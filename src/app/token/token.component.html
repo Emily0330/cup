@@ -21,10 +21,12 @@
             
         </div>
         
-        <h2>兌換為:</h2>
+        <!--<h2>兌換為:</h2>
         <div class="drop">
           <div class="dropOption">
-            <span>請選擇</span>
+            <span id="selected" script="  $('.dropdown a').click(function(){
+              $('#selected').text($(this).text());
+            });">請選擇</span>
           </div>
       
           <ul class="dropdown">
@@ -35,7 +37,26 @@
             <li>蘋果幣</li>
             
           </ul>
-        </div>
+        </div>-->
+        <form class="form-group" action="/action_page.php">
+          <label style="font-size: 28px;">兌換為:</label>
+          <br>
+          <select style="color: #666;
+          font-size: 20px;
+          background-color: #fff;
+          padding: 10px;
+          border: 1px solid #888;
+          border-radius: 5px;
+          box-sizing: border-box;">
+            <option value="dog">狗狗幣</option>
+            <option value="cat">貓貓幣</option>
+            <option value="duck">鴨鴨幣</option>
+            <option value="banana">香蕉幣</option>
+            <option value="apple">蘋果幣</option>
+          </select>
+          <br><br>
+          <!--<input type="submit" class="btn btn-primary" value="Submit">-->
+        </form>
         <div class="form-group">
             <input type="text" class="form-control" id="exampleInputText1" placeholder="兌換數量">
             <h2>可兌換為XX個所選代幣</h2>
