@@ -21,7 +21,7 @@ We reward those shops with **CUP-tokens** every time customers buy drinks using 
 
 Also, Consumers can record their purchases on the chain and accumulate points, which can be exchanged for drinks, etc.
 
-**Please follow the [link](https://youtu.be/CqGDVPDPr68) to see more information of our project.**
+**Please follow the [link](https://youtu.be/6yCbhlL0U6s) to see more information of our project.**
 
 ## About this repo
 **We use:**
@@ -39,4 +39,4 @@ Note that back-end code is in the `back-end` folder, smart contract is in the `s
 3. run `ng serve --open` in the terminal to open the website
     * Note that the default port would be **localhost:4200**
 
-**For more details on how to use the website, please follow this [link](https://youtu.be/CqGDVPDPr68). Hope you enjoy the journey!**
+**For more details on how to use the website, please follow this [link](https://youtu.be/6yCbhlL0U6s). Hope you enjoy the journey!**
